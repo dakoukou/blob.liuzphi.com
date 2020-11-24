@@ -13,10 +13,10 @@ cd docs/.vuepress/dist
 echo 'blob.liuzphi.com' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:dakoukou/liuzphi-blog.git
+  githubUrl=git@github.com:dakoukou/blob.liuzphi.com.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://dakoukou:${GITHUB_TOKEN}git@github.com:dakoukou/liuzphi-blog.git
+  githubUrl=https://dakoukou:${GITHUB_TOKEN}git@github.com:dakoukou/blob.liuzphi.com.git
   git config --global user.name "liuzphi"
   git config --global user.email "liuzphi@163.com"
 fi
