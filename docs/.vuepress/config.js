@@ -22,7 +22,7 @@ module.exports = {
     nav,
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/EB-logo.png', // 导航栏logo
-    repo: 'dakoukou/liuzphi-blog', // 导航栏右侧生成Github链接
+    repo: 'dakoukou/blob.liuzphi.com', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -174,7 +174,7 @@ module.exports = {
         options: {
           clientID: 'a6e1355287947096b88b',
           clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-          repo: 'dakoukou/liuzphi-blog', // GitHub 仓库
+          repo: 'dakoukou/blob.liuzphi.com', // GitHub 仓库
           owner: 'dakoukou', // GitHub仓库所有者
           admin: ['dakoukou'], // 对仓库有写权限的人
           // distractionFreeMode: true,
