@@ -2,11 +2,11 @@ const nav = require('./config/nav.js');
 
 module.exports = {
   title: "liu's blog",
-  description: 'web前端技术博客,简洁至上,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github等技术文章。', // 描述,以 <meta> 标签渲染到页面html中
+  description: '个人技术博客', // 描述,以 <meta> 标签渲染到页面html中
   base: '/', // '/<github仓库名>/'， 默认'/'
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
-    ['meta', { name: 'keywords', content: '个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown' }],
+    ['meta', { name: 'keywords', content: '个人技术博客' }],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }],// 百度统计的站点拥有者验证
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     // ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'}], // 移动端阻止页面缩放
@@ -50,10 +50,10 @@ module.exports = {
     // ],
     // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
 
-    // updateBar: { // 最近更新栏
-    //   showToArticle: true, // 显示到文章页底部，默认true
-    //   moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
-    // },
+    updateBar: { // 最近更新栏
+      showToArticle: true, // 显示到文章页底部，默认true
+      moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
+    },
     // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
     // pageButton: false, // 是否显示快捷翻页按钮，默认true
 
@@ -61,7 +61,7 @@ module.exports = {
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
       name: 'liuzphi', // 必需
-      // link: 'https://github.com/xugaoyi' // 可选的
+      // link: 'https://github.com/dakoukou' // 可选的
     },
     blogger: { // 博主信息，显示在首页侧边栏
       avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
